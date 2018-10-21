@@ -1,0 +1,275 @@
+@font-face{
+	src:url('fonts/Pacifico/Pacifico.ttf');
+	font-family: pacifico;
+}
+@font-face{
+	src:url('fonts/Titillium/TitilliumWeb-Bold.ttf');
+	font-family: titillium;
+}
+@font-face{
+	src:url('fonts/Roboto/Roboto-Black.ttf');
+	font-family: roboto;
+}
+@font-face{
+	src:url('fonts/Roboto/Roboto-Regular.ttf');
+	font-family: roboto_reg;
+}
+		
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+@import 'https://fonts.googleapis.com/css?family=Inconsolata';
+html{
+	overflow-y: auto;
+	//height:50%;
+}
+#header{
+	border: 1px solid #000;
+	font-family: 'Inconsolata', monospace;
+	color: white;
+	letter-spacing:1px;
+	text-align:center;
+	padding:20px;
+	font-size:40px;
+	background-image:url(title2.jpg);
+	font-variant: small-caps;
+}
+#subtitle{
+	font-family: 'Inconsolata', monospace;
+	font-size: 16px;
+	color: yellow;
+	font-variant: normal;
+}
+#menu a{
+	text-decoration: none;
+	font-size: 24px;
+	margin-left: 20px;
+	background: lightgrey;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	text-shadow: 1px 1px grey;
+	transition: all 0.3s;
+}
+#menu a:hover{
+	background: white;
+	color: black;
+}
+.active{
+	color:red;
+}
+#loginbox{
+	position: absolute;
+	left: 500px;
+	top: 300px;
+	padding: 10px;
+ }
+#loginbox h1{
+	font-family: roboto;
+	color: white;
+	margin-left: 30px;
+}
+#welcome{
+	padding: 30px;
+	border: 1px solid #000;
+	font-size: 24px;
+	background-color:#80c1ff;
+}
+#image{
+	border-radius: 30px;
+	margin: auto;
+	position: relative;
+	top: 10px;
+	left: 100px;
+	opacity: 0.5;
+	margin-bottom: -500px;
+}
+#form{
+	font-size: 2em;
+	vertical-align: center;
+	margin-top: 1%;
+}
+
+.active{
+	color: red;
+}
+
+#img{
+	border-radius: 50px;
+	vertical-align: middle;
+}
+
+#username,#password {
+	height: 40px;
+	border:none;
+	border-radius: 20px;
+	width: 250px;
+	font-size: 24px;
+	color: black;
+}
+#username{
+	position: absolute;
+	top: 80px;
+}
+#password{
+	position: absolute;
+	margin-top: 10px;
+}
+#username:focus , #password:focus{
+	outline: none;
+	background-color: #ffffb3;
+}
+.user{
+	position: relative;
+	top:-10px;
+	font-family: roboto_reg;
+	color: #f2f2f2;
+	text-shadow: 1px 1px black;
+}
+.pass{
+	position: relative;
+	top: 10px;
+	font-family: roboto_reg;
+	color: #f2f2f2;
+	text-shadow: 1px 1px black;
+}
+.button{
+	border:none;
+	padding: 10px;
+	font-size: 30px;
+	position: relative;
+	left: 110px;
+	background-color:  transparent;
+	background-repeat: no-repeat;
+	font-family: roboto;
+	color: white;
+	font-variant: small-caps;
+	letter-spacing: 3px;
+}
+
+//.button:hover{
+	background-color: #ffffff;
+	color: #b3d9ff;
+	font-variant: small-caps;
+	box-shadow:3px 3px 5px 6px #ccc;
+}
+#loginbox h1{
+	position: relative;
+	left: 100px;
+	bottom: 10px;
+	color:
+}
+.content h3{
+	font-family: pacifico;
+	text-shadow: 2px 2px grey;
+	color: black;
+	font-size: 40px;
+	position: absolute;
+	right: 600px;
+	top: 200px;
+	z-index: 1;
+}
+.para{
+	//background: url('candle.jpg');
+	background-repeat: no-repeat;
+	background-size: 300px 400px;
+	position: absolute;
+	margin-left: 150px;
+	margin-top:0px;
+	margin-right: 100px;
+	padding: 10px;
+	font-size: 30px;
+	color: white;
+	font-family: pacifico;
+	text-shadow: 2px 2px black;
+}
+@keyframes text_anim{
+	from {color: red;}
+	to{color: yellow;}
+}
+.tour{
+	//background: red;
+	margin-left: 600px;
+	margin-right: 500px;
+	font-size: 30px;
+	position: absolute;
+	top: 700px;
+}
+
+.tour a{
+	color: yellow;
+	text-decoration: none;
+	font-family: pacifico;
+	-webkit-animation-name: text_anim;
+	-webkit-animation-duration: 10s;
+}
+.forgot{
+	font-size:20px;
+	color:yellow;
+	position: relative;
+	left:15px;
+	text-shadow: 1px 1px orange;
+}
+.principle{
+	border-radius: 50px;
+	background: lightgrey;
+	position: relative;
+	top: 190px;
+	left: 100px;
+	margin-right: 400px;
+	border:2px;
+	font-family: pacifico;
+	font-size: 24px;
+	//text-shadow: 1px 0.5px grey;
+	color: orange;
+}
+.princi_img{
+	position: absolute;
+    left: 519px;
+    width: 208px;
+    border-radius: 53%;
+    bottom: 120px;
+    height: 200px;
+}
+.corres{
+	border-radius: 50px;
+	background: lightgrey;
+	position: relative;
+	margin-top: 50px;
+	bottom:190px;
+	left: 310px;
+	margin-right: 400px;
+	border:2px;
+	font-family: pacifico;
+	font-size: 24px;
+	//text-shadow: 1px 1px grey;
+	color: red;
+}
+.corres_img{
+	position: absolute;
+    right: 1550px;
+    width: 208px;
+    border-radius: 53%;
+    top: 500px;
+    height: 200px;
+}
+.chiefwarden{
+	border-radius: 50px;
+	background: lightgrey;
+	position: relative;
+	margin-top: 60px;
+	bottom: 580px;
+	left: 100px;
+	margin-right: 400px;
+	border:2px;
+	font-family: pacifico;
+	font-size: 24px;
+	//text-shadow: 2px 2px white;
+	color: yellow;
+}
+.chiefwarden_img{
+	position: absolute;
+    left: 519px;
+    width: 208px;
+    border-radius: 53%;
+    top: 670px;
+    height: 200px;
+}
